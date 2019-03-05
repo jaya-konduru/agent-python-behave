@@ -14,6 +14,14 @@ example: `>behave -D step_based=True` in this case Step based logging will be ap
 Note: Scenario based logging applied by default
 
 
+# `rp_enable` parameter
+Is responsible for logging into report portal. If it is disabled then no loggin will be into report portal.<br>
+
+example: `>behave -D rp_enable=True`
+
+Note: Report portal logging enabled by default
+
+
 # `behave.ini` file
 In your `behave.ini` file you will have to add `[report_portal]` block
 * `rp_endpoint =` report_portal_url
@@ -21,5 +29,3 @@ In your `behave.ini` file you will have to add `[report_portal]` block
 * `rp_token =` your UUID (can found in your profile of Report portal)
 * `rp_launch_name =` 'Your default launch name'
 * `rp_launch_description =` 'Your default launcher description'
-
-# `rp_enable` parameter
