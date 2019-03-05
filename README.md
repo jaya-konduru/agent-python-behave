@@ -14,7 +14,7 @@ example: `>behave -D step_based=True` in this case Step based logging will be ap
 Note: Scenario based logging applied by default
 
 
-#`behave.ini` file
+# `behave.ini` file
 In your `behave.ini` file you will have to add `[report_portal]` block
 * `rp_endpoint =` report_portal_url
 * `rp_project =` your report portal project name
@@ -22,4 +22,4 @@ In your `behave.ini` file you will have to add `[report_portal]` block
 * `rp_launch_name =` 'Your default launch name'
 * `rp_launch_description =` 'Your default launcher description'
 
-#`rp_enable` parameter
+# `rp_enable` parameter
