@@ -29,3 +29,5 @@ In your `behave.ini` file you will have to add `[report_portal]` block
 * `rp_token =` your UUID (can found in your profile of Report portal)
 * `rp_launch_name =` 'Your default launch name'
 * `rp_launch_description =` 'Your default launcher description'
+
+Note: `behave.local.ini` file is for local using. Reading from it is 1st in queue. If it does not exist, then `behave.ini` wil be applied
